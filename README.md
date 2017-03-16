@@ -8,7 +8,8 @@ To use Core Data there are three main pieces needed in every app:
 * a function to save the context - `saveContext`
 * an Data Model file eg `myProject.xcdatamodeld`
 
-####NSMangedContext
+
+###NSMangedContext
 
 
 ```
