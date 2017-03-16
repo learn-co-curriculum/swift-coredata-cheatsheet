@@ -9,7 +9,7 @@ To use Core Data there are three main pieces needed in every app:
 * an Data Model file eg `myProject.xcdatamodeld`
 
 
-###NSMangedContext
+### NSMangedContext
 
 
 ```
@@ -65,7 +65,7 @@ We can actually remove the comments to turn it into this
  
    
  
-####SaveContext    
+#### SaveContext    
  
  
  This function is pretty straightforward. All it does is check changes to the context and saves them
@@ -88,7 +88,7 @@ We can actually remove the comments to turn it into this
  
  ```
  
-###DataModel
+### DataModel
 
 If this file is not already in your project, you may have to create it yourself. This can be done simply be Creating a New File ( `Cmd + N` ) and selecting Data Model. You may have to scroll down to find it.
 
@@ -115,7 +115,7 @@ let context = persistentContainer.viewContext
 let task = Task(context: context)
 task.content = taskString
 ```
-#####Don't forget to call saveContext after
+##### Don't forget to call saveContext after
 
 ```
 let context = persistentContainer.viewContext
@@ -142,7 +142,7 @@ func getTasks() {
 ```
 
 
-###Core Data is Easy!
+### Core Data is Easy!
 
 ![](http://i.giphy.com/pQD32luG0k1EI.gif)
 
